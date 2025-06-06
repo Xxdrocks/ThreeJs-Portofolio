@@ -21,7 +21,7 @@ const NavBar = () => {
         
       <div className="inner">
         <a href="#hero" className="logo">
-          Fachri
+          Winata | Jsx
         </a>
 
         <nav className="desktop">

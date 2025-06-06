@@ -17,8 +17,8 @@ const Hero = () => {
                 y: 0,
                 opacity: 1,
                 stagger: 0.3,
-                duration: 1,
-                ease: 'power2.inOut'
+                duration: 1.1,
+                ease: 'power3.inOut'
             }
         )
     })
@@ -29,11 +29,11 @@ const Hero = () => {
     </div>
 
     <div className="hero-layout">
-        {/*Left hero content */}
+       
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
             <div className="flex flex-col gap-7">
                 <div className='hero-text'>
-                    <h1>Shaping
+                    <h1>Learning
                         <span className='slide'>
                             <span className='wrapper'>
                             {words.map((word) => (
@@ -45,10 +45,10 @@ const Hero = () => {
                             </span>
                         </span>
                     </h1>
-                    <h1>into Future Website</h1>
-                    <h1>with you as Developer</h1>
+                    <h1>Discover a Future</h1>
+                    <h1>with me as Developer</h1>
                 </div>
-                <p className='text-white-50 md:text-l relative z-10 pointer-events-none'>I am Fachri as Frontend Developer with a passion for creating visuallity</p>    
+                <p className='text-white-50 md:text-l relative z-10 pointer-events-none'>I am Fachri as Frontend Developer with a passion for turning Logic into Visual Magic</p>    
                 <Button
                 className='md:w-70 md:h-15 w-60 h-12' 
                 id='button'
@@ -56,7 +56,7 @@ const Hero = () => {
                 />
             </div>
         </header>
-        {/*Right 3d content */}
+
         <figure>
             <div className="hero-3d-layout"> 
             <HeroExperience />

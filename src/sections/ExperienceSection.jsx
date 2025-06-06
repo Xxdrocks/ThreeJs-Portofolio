@@ -29,7 +29,7 @@ const ExperienceSection = () => {
       ease: "power1.inOut",
       scrollTrigger: {
         trigger: ".timeline",
-        start: "top 90%",
+        start: "top 100%",
         end: "70% center",
         onUpdate: (self) => {
           gsap.to(".timeline", {
@@ -67,8 +67,8 @@ const ExperienceSection = () => {
             <div key={card.title} className="exp-card-wrapper">
               <div className="xl:w-2/6">
                 <GlowCard card={card} index={index}>
-                  <div>
-                    <img src={card.imgPath} alt={card.title} />
+                  <div >
+                    <img src={card.imgPath} alt={card.title} className="w-35 h-17" />
                   </div>
                 </GlowCard>
               </div>

@@ -52,7 +52,7 @@ const ShowCaseSection = () => {
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="project" />
+              <img src="/images/Bukoo.png" alt="project" />
             </div>
             <div className="text-content">
               <h2>
@@ -67,19 +67,19 @@ const ShowCaseSection = () => {
           {/* right */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="project" />
+              <div className="image-wrapper bg-[#648DB3]">
+                <img src="/images/Parfumiere.PNG" alt="project" />
               </div>
               <h2>
-                On-Demand Books App for Kids and User Friendly App called Bukoo
+                Discover the art of fragrance with our exclusive perfume collection.
               </h2>
             </div>
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="project" />
+              <div className="image-wrapper bg-[#FEC5F6]">
+                <img src="/images/Birthday.png" alt="project" />
               </div>
               <h2>
-                On-Demand Books App for Kids and User Friendly App called Bukoo
+                Celebrate this special chapter with us! RSVP now for unforgettable events.
               </h2>
             </div>
           </div>
