@@ -72,7 +72,7 @@ const logoIconsList = [
     imgPath: "/images/logos/laravel-logo.png",
   },
   {
-    imgPath: "/images/logos/threejs-logo.png",
+    imgPath: "/images/logos/threejs.png",
   },
   {
     imgPath: "/images/logos/react-logo.png",
@@ -160,7 +160,7 @@ const expCards = [
     imgPath: "/images/logos/vscode-logo.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "January 2022 - 2024",
     responsibilities: [
       "Built and refined frontend interfaces using modern JavaScript frameworks within VSCode.",
       "Utilized VSCode extensions and debugging tools to streamline development and detect issues efficiently.",
@@ -174,7 +174,7 @@ const expCards = [
     imgPath: "/images/logos/laravel-logo.png",
     logoPath: "/images/logo3.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "June 2024 - present",
     responsibilities: [
       "Developed robust RESTful APIs and backend logic using Laravel and Eloquent ORM.",
       "Managed authentication, routing, and middleware within Laravel’s ecosystem.",
@@ -188,7 +188,7 @@ const expCards = [
     imgPath: "/images/logos/react-logo.png",
     logoPath: "/images/logo4.png",
     title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    date: "March 2025 - present",
     responsibilities: [
       "Developed cross-platform mobile applications using React Native and JavaScript.",
       "Utilized React hooks and navigation libraries to deliver a responsive and native-like experience.",
@@ -213,67 +213,65 @@ const expLogos = [
 ];
 
 const testimonials = [
- {
-  name: "Howard",
-  mentions: "@estherhoward",
-  review:
-    "I can’t say enough good things about Fachri. He took our complex project requirements and turned them into a seamless, functional website. His problem-solving abilities are truly outstanding.",
-  imgPath: "/images/client1.jpeg",
-},
-{
-  name: "Warren",
-  mentions: "@wadewarren",
-  review:
-    "Working with Fachri was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web development projects.",
-  imgPath: "/images/client3.jpeg",
-},
-{
-  name: "Hawkins",
-  mentions: "@guyhawkins",
-  review:
-    "Collaborating with Fachri was an absolute pleasure. His professionalism, responsiveness, and dedication to delivering exceptional results were evident throughout the project. Fachri's enthusiasm for development truly stands out. If you're looking to elevate your website and brand, he's the perfect choice.",
-  imgPath: "/images/client2.jpeg",
-},
-{
-  name: " McKinney",
-  mentions: "@marvinmckinney",
-  review:
-    "Fachri was a pleasure to work with. He took our outdated website and turned it into a fresh, intuitive, and modern platform that's easy to navigate. Fantastic work overall.",
-  imgPath: "/images/client5.jpeg",
-},
-{
-  name: " Miles",
-  mentions: "@floydmiles",
-  review:
-    "Fachri’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since launch. A true professional!",
-  imgPath: "/images/client4.jpeg",
-},
-{
-  name: " Flores",
-  mentions: "@albertflores",
-  review:
-    "Fachri understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend development are top-notch. A great experience overall.",
-  imgPath: "/images/client6.jpeg",
-}
-
+  {
+    name: "Sultan",
+    mentions: "@sultan",
+    review:
+      "I can’t say enough good things about Fachri. He took our complex project requirements and turned them into a seamless, functional website. His problem-solving abilities are truly outstanding.",
+    imgPath: "/images/client1.jpeg",
+  },
+  {
+    name: "Alipip",
+    mentions: "@alipip",
+    review:
+      "Working with Fachri was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web development projects.",
+    imgPath: "/images/client3.jpeg",
+  },
+  {
+    name: "Kustan",
+    mentions: "@Kustan",
+    review:
+      "Collaborating with Fachri was an absolute pleasure. His professionalism, responsiveness, and dedication to delivering exceptional results were evident throughout the project. Fachri's enthusiasm for development truly stands out. If you're looking to elevate your website and brand, he's the perfect choice.",
+    imgPath: "/images/client2.jpeg",
+  },
+  {
+    name: "Dayats",
+    mentions: "@dayat",
+    review:
+      "Fachri was a pleasure to work with. He took our outdated website and turned it into a fresh, intuitive, and modern platform that's easy to navigate. Fantastic work overall.",
+    imgPath: "/images/client5.jpeg",
+  },
+  {
+    name: "badran",
+    mentions: "@badran",
+    review:
+      "Fachri’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since launch. A true professional!",
+    imgPath: "/images/client4.jpeg",
+  },
+  {
+    name: " bumi",
+    mentions: "@bumi",
+    review:
+      "Fachri understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend development are top-notch. A great experience overall.",
+    imgPath: "/images/client6.jpeg",
+  },
 ];
 
 const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    URL: "https://www.instagram.com/fachri.winata/",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    URL: "https://www.linkedin.com/in/fachri-surya-winata-fatahe-88bba92ba/",
+  },
+  {
+    name: "Github",
+    imgPath: "/images/github.png",
+    URL: "https://github.com/Xxdrocks",
   },
 ];
 
