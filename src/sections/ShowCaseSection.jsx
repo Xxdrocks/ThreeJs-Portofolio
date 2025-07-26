@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { projects } from "../constants";
 import { expCards } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -45,100 +46,137 @@ const ShowCaseSection = () => {
     );
   }, []);
 
+
+  
+
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          {/* left */}
+          {/* First row */}
           <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img src="/images/Bukoo.png" alt="project" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Books App for Kids and User Friendly App called Bukoo
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                an Built App with Laravel and css Native for a fast
-                user-Friendly experience.
-              </p>
-            </div>
+            <a href={projects[0].link} target="_blank" rel="noopener noreferrer" className="block">
+              <div className="image-wrapper">
+                <img src={projects[0].image} alt="project" />
+              </div>
+              <div className="text-content">
+                <h2>{projects[0].title}</h2>
+                <p className="text-white-50 md:text-xl">
+                  {projects[0].description}
+                </p>
+                <div className="flex gap-3">
+                  {projects[0].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
           </div>
-          {/* right */}
+
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#648DB3]">
-                <img src="/images/Parfumiere.PNG" alt="project" />
+            <a href={projects[1].link} target="_blank" rel="noopener noreferrer" className="block" ref={project2Ref}>
+              <div className="project">
+                <div className="image-wrapper bg-[#648DB3]">
+                  <img src={projects[1].image} alt="project" />
+                </div>
+                <h2>{projects[1].title}</h2>
+                <div className="flex gap-3">
+                  {projects[1].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
               </div>
-              <h2>
-                Discover the art of fragrance with our exclusive perfume collection.
-              </h2>
-            </div>
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#FEC5F6]">
-                <img src="/images/Birthday.png" alt="project" />
+            </a>
+
+            <a href={projects[2].link} target="_blank" rel="noopener noreferrer" className="block" ref={project3Ref}>
+              <div className="project">
+                <div className="image-wrapper bg-[#FEC5F6]">
+                  <img src={projects[2].image} alt="project" />
+                </div>
+                <h2>{projects[2].title}</h2>
+                <div className="flex gap-3">
+                  {projects[2].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
               </div>
-              <h2>
-                Celebrate this special chapter with us! RSVP now for unforgettable events.
-              </h2>
-            </div>
+            </a>
           </div>
-          
         </div>
+
+        <div className="showcaselayout mt-10">
+          {/* Second row */}
+          <div className="project-list-wrapper overflow-hidden md:mt-[-90px]">
+            <a href={projects[3].link} target="_blank" rel="noopener noreferrer" className="block" ref={project2Ref}>
+              <div className="project">
+                <div className="image-wrapper bg-white">
+                  <img src={projects[3].image} alt="project" />
+                </div>
+                <h2>{projects[3].title}</h2>
+                <div className="flex gap-3">
+                  {projects[3].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
+
+            <a href={projects[4].link} target="_blank" rel="noopener noreferrer" className="block" ref={project3Ref}>
+              <div className="project">
+                <div className="image-wrapper bg-white">
+                  <img src={projects[4].image} alt="project" />
+                </div>
+                <h2>{projects[4].title}</h2>
+                <div className="flex gap-3">
+                  {projects[4].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="first-project-wrapper mt-10" ref={project1Ref}>
+            <a href={projects[5].link} target="_blank" rel="noopener noreferrer" className="block">
+              <div className="image-wrapper">
+                <img src={projects[5].image} alt="project" />
+              </div>
+              <div className="text-content">
+                <h2>{projects[5].title}</h2>
+                <p className="text-white-50 md:text-xl">
+                  {projects[5].description}
+                </p>
+                <div className="flex gap-3">
+                  {projects[5].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
         <div className="showcaselayout">
-          {/* left */}
-           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-white">
-                <img src="/images/Luminora.png" alt="project" />
+          {/* Third row */}
+          <div className="first-project-wrapper mt-10" ref={project1Ref}>
+            <a href={projects[6].link} target="_blank" rel="noopener noreferrer" className="block">
+              <div className="image-wrapper">
+                <img src={projects[6].image} alt="project" />
               </div>
-              <h2>
-                Illuminate Your Space Discover Luminora's
-              </h2>
-            </div>
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-white">
-                <img src="/images/temanTanda.png" alt="project" />
+              <div className="text-content">
+                <h2>{projects[6].title}</h2>
+                <p className="text-white-50 md:text-xl">
+                  {projects[6].description}
+                </p>
+                <div className="flex gap-3">
+                  {projects[6].tags.map((tag, index) => (
+                    <span key={index} className="bg-white text-black rounded-full px-2">{tag}</span>
+                  ))}
+                </div>
               </div>
-              <h2>
-               Interactive Platform to Master Sign Language.
-              </h2>
-            </div>
-          </div>
-          {/* right */}
-         <div className="first-project-wrapper mt-10" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img src="/images/perfumiere.png" alt="project" />
-            </div>
-            <div className="text-content">
-              <h2>
-                Luxury Perfume Collections Tailored to Your Essence
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                A premium fragrance platform built with modern web technologies for seamless scent discovery and purchase experience.
-              </p>
-            </div>
+            </a>
           </div>
         </div>
-        <div className="showcaselayout">
-          {/* left */}
-    
-          {/* right */}
-         <div className="first-project-wrapper mt-10" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img src="/images/sokin.png" alt="project" />
-            </div>
-            <div className="text-content">
-              <h2>
-                Sokin Mari Nyusu - Creamy, Dreamy Milkshakes Delivered
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                 Handcrafted blends of milk, ice cream, and flavored syrups – shaken to perfection for your sweetest moments
-              </p>
-            </div>
-          </div>   
-        </div>
-        
       </div>
     </section>
   );
