@@ -8,6 +8,7 @@ import Techstack from './sections/TechStack.jsx'
 import Testimonials from './sections/Testimonials.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/Footer.jsx'
+import CertificateSection from './sections/CertificateSection.jsx'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <ShowCaseSection />
       <FeatureCard />
       <ExperienceSection />
+      <CertificateSection />
       <Techstack />
       <Testimonials />
       <Contact />

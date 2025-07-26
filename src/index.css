@@ -13,6 +13,8 @@ body {
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
 }
 
 section {
@@ -470,4 +472,11 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+/* background linear gradient */
+.gradient {
+  background: linear-gradient(
+    0deg, #D9EAFD, #ffffff
+  );
 }

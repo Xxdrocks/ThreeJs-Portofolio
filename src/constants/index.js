@@ -37,9 +37,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 20, suffix: "+", label: "Coding Projects" },
-  { value: 5, suffix: "+", label: "Programming Languages" },
-  { value: 3, suffix: "+", label: "Finalists in Competitions" },
+  { value: 23, suffix: "", label: "Coding Projects" },
+  { value: 3, suffix: "", label: "Led Developer Teams" },
+  { value: 3, suffix: "", label: "Finalists in Competitions" },
   { value: 300, suffix: "+", label: "GitHub Commiting" },
 ];
 
@@ -95,6 +95,55 @@ const abilities = [
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
+];
+
+const certificates = [
+  {
+    imgPath: "/images/certificate/certificate.PNG",
+    title: "LKS Internal",
+    desc: "Peserta LKS internal tahun 2024",
+  },
+  {
+    imgPath: "/images/certificate/certificate1.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy Dasar-dasar Javascript tahun 2024",
+  },
+  {
+    imgPath: "/images/certificate/certificate2.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy Dasar-dasar Pengembangan Website dan HTML",
+  },
+  {
+    imgPath: "/images/certificate/certificate3.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy Framework CSS dan Versioning Control dengan Git",
+  },
+  {
+    imgPath: "/images/certificate/certificate4.PNG",
+    title: "Cloud Computing Club Competition",
+    desc: "Grand Finalist Cloud Computing Club Competition Tahun 2024",
+  },
+  {
+    imgPath: "/images/certificate/certificate5.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy HTML & CSS",
+  },
+  {
+    imgPath: "/images/certificate/certificate6.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy Mini Proyek 1",
+  },
+  {
+    imgPath: "/images/certificate/certificate7.PNG",
+    title: "Lumoshive Academy",
+    desc: "Sertifikat Lumoshive Academy Layouting Modern dengan CSS",
+  },
+  {
+    imgPath: "/images/certificate/certificate8.PNG",
+    title: "Cloud Computing Club Competition",
+    desc: "Peserta Cloud Computing Club Competition Tahun 2024",
+  },
+ 
 ];
 
 const techStackImgs = [
@@ -278,6 +327,7 @@ const socialImgs = [
 export {
   words,
   abilities,
+  certificates,
   logoIconsList,
   counterItems,
   expCards,

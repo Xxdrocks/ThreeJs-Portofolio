@@ -5,6 +5,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import AnimatedHitung from '../components/AnimatedHitung.jsx'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import ProfileSection from './ProfileSection.jsx'
 
 const Hero = () => {
     useGSAP(() => {
@@ -63,6 +64,7 @@ const Hero = () => {
             </div>
         </figure>
     </div>
+    <ProfileSection />
           <AnimatedHitung />
    </section>
   )

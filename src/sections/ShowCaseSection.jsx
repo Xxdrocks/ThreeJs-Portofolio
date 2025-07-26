@@ -83,7 +83,62 @@ const ShowCaseSection = () => {
               </h2>
             </div>
           </div>
+          
         </div>
+        <div className="showcaselayout">
+          {/* left */}
+           <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={project2Ref}>
+              <div className="image-wrapper bg-white">
+                <img src="/images/Luminora.png" alt="project" />
+              </div>
+              <h2>
+                Illuminate Your Space Discover Luminora's
+              </h2>
+            </div>
+            <div className="project" ref={project3Ref}>
+              <div className="image-wrapper bg-white">
+                <img src="/images/temanTanda.png" alt="project" />
+              </div>
+              <h2>
+               Interactive Platform to Master Sign Language.
+              </h2>
+            </div>
+          </div>
+          {/* right */}
+         <div className="first-project-wrapper mt-10" ref={project1Ref}>
+            <div className="image-wrapper">
+              <img src="/images/perfumiere.png" alt="project" />
+            </div>
+            <div className="text-content">
+              <h2>
+                Luxury Perfume Collections Tailored to Your Essence
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                A premium fragrance platform built with modern web technologies for seamless scent discovery and purchase experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="showcaselayout">
+          {/* left */}
+    
+          {/* right */}
+         <div className="first-project-wrapper mt-10" ref={project1Ref}>
+            <div className="image-wrapper">
+              <img src="/images/sokin.png" alt="project" />
+            </div>
+            <div className="text-content">
+              <h2>
+                Sokin Mari Nyusu - Creamy, Dreamy Milkshakes Delivered
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                 Handcrafted blends of milk, ice cream, and flavored syrups – shaken to perfection for your sweetest moments
+              </p>
+            </div>
+          </div>   
+        </div>
+        
       </div>
     </section>
   );
