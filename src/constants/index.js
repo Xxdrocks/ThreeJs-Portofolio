@@ -143,7 +143,7 @@ const certificates = [
     title: "Cloud Computing Club Competition",
     desc: "Peserta Cloud Computing Club Competition Tahun 2024",
   },
- 
+
 ];
 
 const techStackImgs = [
@@ -325,59 +325,60 @@ const socialImgs = [
 ];
 
 const projects = [
-    {
-      id: 1,
-      title: "On-Demand Books App for Kids and User Friendly App called Bukoo",
-      description: "Built App with Laravel and css Native for a fast user-Friendly experience.",
-      image: "/images/Bukoo.png",
-      tags: ["PHP", "laravel", "Blade", "Javascript"],
-      link: "https://github.com/Xxdrocks/Bukooo" 
-    },
-    {
-      id: 2,
-      title: "Discover the art of fragrance with our exclusive perfume collection.",
-      image: "/images/Parfumiere.PNG",
-      tags: ["Javascript", "HTML", "CSS"],
-      link: "https://github.com/Xxdrocks/Parfumiere" 
-    },
-    {
-      id: 3,
-      title: "Celebrate this special chapter with us! RSVP now for unforgettable events.",
-      image: "/images/Birthday.png",
-      tags: ["Javascript", "HTML", "CSS"],
-      link: "https://xxdrocks.github.io/BIRTHDAY/opening.html" 
-    },
-    {
-      id: 4,
-      title: "Illuminate Your Space Discover Luminora's",
-      image: "/images/Luminora.png",
-      tags: ["Javascript", "HTML", "CSS"],
-      link: "https://github.com/Xxdrocks/Luminora" 
-    },
-    {
-      id: 5,
-      title: "Interactive Platform to Master Sign Language.",
-      image: "/images/temanTanda.png",
-      tags: ["Javascript", "HTML", "CSS"],
-      link: "https://github.com/Xxdrocks/Invention-Udayana-2025"
-    },
-    {
-      id: 6,
-      title: "Luxury Perfume Collections Tailored to Your Essence",
-      description: "A premium fragrance platform built with modern web technologies for seamless scent discovery and purchase experience.",
-      image: "/images/perfumiere.png",
-      tags: ["Javascript", "HTML", "CSS"],
-      link: "https://github.com/Xxdrocks/Shopping" 
-    },
-    {
-      id: 7,
-      title: "Sokin Mari Nyusu - Creamy, Dreamy Milkshakes Delivered",
-      description: "Handcrafted blends of milk, ice cream, and flavored syrups – shaken to perfection for your sweetest moments",
-      image: "/images/sokin.png",
-      tags: ["Javascript",  "HTML", "CSS"],
-      link: "https://xxdrocks.github.io/MILKSHAKE/" 
-    }
-  ];
+  {
+    id: 1,
+    title: "Sokin Milkshake - Creamy, Dreamy Milkshakes Delivered",
+    description: "Handcrafted blends of milk, ice cream, and flavored syrups – shaken to perfection for your sweetest moments",
+    image: "/images/Sokin-Milkshake.png",
+    tags: ["React", "TailwindCss"],
+    link: "https://sokin-milkshake.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Discover the art of fragrance with our exclusive perfume collection.",
+    image: "/images/Parfumiere.PNG",
+    tags: ["Javascript", "HTML", "CSS"],
+    link: "https://parfumiere.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Celebrate this special chapter with us! RSVP now for unforgettable events.",
+    image: "/images/Birthday.png",
+    tags: ["Javascript", "HTML", "CSS"],
+    link: "https://xxdrocks.github.io/BIRTHDAY/opening.html"
+  },
+  {
+    id: 4,
+    title: "Illuminate Your Space Discover Luminora's",
+    image: "/images/Luminora.png",
+    tags: ["Javascript", "HTML", "TailwindCss"],
+    link: "https://github.com/Xxdrocks/Luminora/tree/main"
+  },
+  {
+    id: 5,
+    title: "Interactive Platform to Master Sign Language.",
+    image: "/images/temanTanda.png",
+    tags: ["Javascript", "HTML", "TailwindCss"],
+    link: "https://invention-udayana-2025.vercel.app/"
+  },
+  {
+    id: 6,
+    title: "Luxury Perfume Collections Tailored to Your Essence",
+    description: "A premium fragrance platform built with modern web technologies for seamless scent discovery and purchase experience.",
+    image: "/images/perfumiere.png",
+    tags: ["Javascript", "HTML", "CSS"],
+    link: "https://github.com/Xxdrocks/Shopping"
+  },
+  {
+    id: 7,
+    title: "On-Demand Books App for Kids and User Friendly App called Bukoo",
+    description: "Built App with Laravel and css Native for a fast user-Friendly experience.",
+    image: "/images/Bukoo.png",
+    tags: ["PHP", "laravel", "Blade", "Javascript"],
+    link: "https://github.com/Xxdrocks/Bukooo"
+
+  }
+];
 
 export {
   words,
