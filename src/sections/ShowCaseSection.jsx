@@ -107,7 +107,7 @@ const ShowCaseSection = () => {
         <div className="showcaselayout mt-10">
           {/* Second row */}
           <div className="project-list-wrapper overflow-hidden md:mt-[-90px]">
-            <a href={projects[3].link} target="_blank" rel="noopener noreferrer" className="block" ref={project2Ref}>
+            <a href={projects[3].link} target="_blank" rel="noopener noreferrer" className="block md:mt-20" ref={project2Ref}>
               <div className="project">
                 <div className="image-wrapper bg-white">
                   <img src={projects[3].image} alt="project" />
@@ -121,7 +121,7 @@ const ShowCaseSection = () => {
               </div>
             </a>
 
-            <a href={projects[4].link} target="_blank" rel="noopener noreferrer" className="block" ref={project3Ref}>
+            <a href={projects[4].link} target="_blank" rel="noopener noreferrer" className="block md:mt-20" ref={project3Ref}>
               <div className="project">
                 <div className="image-wrapper bg-white">
                   <img src={projects[4].image} alt="project" />
@@ -137,7 +137,7 @@ const ShowCaseSection = () => {
           </div>
 
           <div className="first-project-wrapper mt-10" ref={project1Ref}>
-            <a href={projects[5].link} target="_blank" rel="noopener noreferrer" className="block">
+            <a href={projects[5].link} target="_blank" rel="noopener noreferrer" className="block ">
               <div className="image-wrapper">
                 <img src={projects[5].image} alt="project" />
               </div>

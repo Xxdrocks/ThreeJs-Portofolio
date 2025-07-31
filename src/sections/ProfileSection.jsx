@@ -104,7 +104,7 @@ const ProfileSection = () => {
                         onMouseEnter={() => setHovering(true)}
                         onMouseLeave={() => setHovering(false)}
                         onMouseMove={handleMouseMove}
-                        className="md:text-7xl text-3xl font-extrabold leading-tight relative text-transparent bg-clip-text bg-gradient-to-r from-[#D9EAFD] to-[#ffffff] overflow-hidden"
+                        className="md:text-4xl text-3xl font-extrabold leading-tight relative text-transparent bg-clip-text bg-gradient-to-r from-[#D9EAFD] to-[#ffffff] overflow-hidden"
                     >
                         Fachri Surya Winata Fatahe
                     </h1>
