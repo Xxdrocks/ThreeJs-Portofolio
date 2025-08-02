@@ -80,6 +80,7 @@ const ProfileSection = () => {
         <section
             ref={sectionRef}
             className="relative py-10 md:px-25 px-6 overflow-hidden"
+            id="profile"
         >
             <div className="flex md:flex-row flex-col-reverse items-center gap-10 shadow-lg relative z-10">
                 <div className=" flex justify-center md:justify-start">
@@ -104,7 +105,7 @@ const ProfileSection = () => {
                         onMouseEnter={() => setHovering(true)}
                         onMouseLeave={() => setHovering(false)}
                         onMouseMove={handleMouseMove}
-                        className="md:text-4xl text-3xl font-extrabold leading-tight relative text-transparent bg-clip-text bg-gradient-to-r from-[#D9EAFD] to-[#ffffff] overflow-hidden"
+                        className="xl:text-5xl md:text-4xl font-extrabold leading-tight relative text-transparent bg-clip-text bg-gradient-to-r from-[#D9EAFD] to-[#ffffff] overflow-hidden"
                     >
                         Fachri Surya Winata Fatahe
                     </h1>

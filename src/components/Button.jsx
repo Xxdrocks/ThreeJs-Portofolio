@@ -6,7 +6,7 @@ const Button = ({text, className, id}) => {
     onClick={(e) => {
       e.preventDefault()
 
-     const target = document.getElementById('hitung').scrollIntoView({behavior: 'smooth'})
+     const target = document.getElementById('profile').scrollIntoView({behavior: 'smooth'})
      if (target && id) {
       const offset = window.innerHeight * 0.15 ;
 
