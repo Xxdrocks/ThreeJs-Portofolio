@@ -23,7 +23,7 @@ const CertificateSection = () => {
               />
             </div>
             <h3 className="text-white text-xl font-semibold">{title}</h3>
-            <p className="text-shadow-white-50 text-sm mt-2 w-">{desc}</p>
+            <p className="text-shadow-white-50 text-sm mt-2">{desc}</p>
           </div>
         ))}
       </div>

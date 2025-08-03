@@ -146,6 +146,29 @@ const certificates = [
 
 ];
 
+const other = [
+  {
+    imgPath: "/images/certificate/film.jpeg",
+    title: "Short Film - Kalpataru",
+    desc: "Fachri sebagai editor sekaligus aktor",
+  },
+  {
+    imgPath: "/images/certificate/juara.jpeg",
+    title: "Juara Harapan 2 - Short Film",
+    desc: "Festival dan Lomba Seni Siswa Nasional",
+  },
+  {
+    imgPath: "/images/certificate/sepedah.jpeg",
+    title: "Juara 2 - Trackbike Competition",
+    desc: "Scratch Trackbike Competition Velodrome",
+  },
+  {
+    imgPath: "/images/certificate/ui.jpeg",
+    title: "Universitas Indonesia - Open Days",
+  },
+  
+];
+
 const techStackImgs = [
   {
     name: "React Developer",
@@ -384,6 +407,7 @@ export {
   words,
   abilities,
   certificates,
+  other,
   logoIconsList,
   counterItems,
   expCards,
