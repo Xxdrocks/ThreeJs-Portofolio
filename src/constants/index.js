@@ -256,15 +256,15 @@ const expCards = [
 
   {
     review:
-      "Fachri built performant mobile experiences using React. His React Native contributions accelerated our app's development while ensuring a smooth and polished UI.",
-    imgPath: "/images/logos/react-logo.png",
-    logoPath: "/images/logo4.png",
-    title: "React Native Developer",
-    date: "March 2025 - present",
+      "Fachri built engaging and interactive game experiences using GDevelop. His contributions to GDevelop projects accelerated game development while ensuring smooth performance and an enjoyable player experience",
+    imgPath: "",
+    logoPath: "/images//logos/gdev.png",
+    title: "Game Developer",
+    date: "August 2025 - present",
     responsibilities: [
-      "Developed cross-platform mobile applications using React Native and JavaScript.",
-      "Utilized React hooks and navigation libraries to deliver a responsive and native-like experience.",
-      "Integrated APIs and handled state management with Redux for scalable performance.",
+      "Guided students in developing interactive 2D games using GDevelop as a visual programming platform.",
+      "Implemented interactive gameplay mechanics, animations, and scene transitions for an engaging user experience.",
+      "Collaborated on level design, testing, and debugging to ensure smooth gameplay and stability.",
     ],
   },
 ];
@@ -382,7 +382,7 @@ const projects = [
     title: "Interactive Platform to Master Sign Language.",
     image: "/images/temanTanda.png",
     tags: ["Javascript", "HTML", "TailwindCss"],
-    link: "https://invention-udayana-2025.vercel.app/"
+    link: "https://invention-udayana-rill.vercel.app/"
   },
   {
     id: 6,
@@ -400,7 +400,8 @@ const projects = [
     tags: ["PHP", "laravel", "Blade", "Javascript"],
     link: "https://github.com/Xxdrocks/Bukooo"
 
-  }
+  },
+  
 ];
 
 export {

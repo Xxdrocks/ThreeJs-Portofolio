@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); // Show loading state
+    setLoading(true); 
 
     try {
       await emailjs.sendForm(

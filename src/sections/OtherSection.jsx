@@ -6,7 +6,7 @@ const OtherSection = () => {
     return (
         <div className='px-7'>
             <div className="w-full h-full md:px-20 px-5 py-15">
-                <TitleHeader title="Others"  />
+                <TitleHeader sub={"Others"} title="Dokumentation" />
             </div>
             <div className="flex overflow-x-auto space-x-6 pb-4 scrollbar-hide">
                 {other.map(({ imgPath, title, desc }) => (
